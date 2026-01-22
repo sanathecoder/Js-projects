@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    align-content: center;
+}
+form{
+    margin-top: 20px;
+}
+.div{
+    margin: 10px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+button{
+    background-color: black;
+    color: bisque;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#results{
+    color: brown;
+}

@@ -1,0 +1,12 @@
+ body {
+     background-color: blanchedalmond;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+ }
+
+ table,
+ th,
+ td {
+     border: 1px solid black;
+ }

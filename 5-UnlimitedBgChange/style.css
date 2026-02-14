@@ -1,0 +1,15 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 80px;
+    margin-right: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}

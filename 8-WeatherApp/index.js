@@ -48,3 +48,16 @@ async function CheckWeather(city) {
 searchBtn.addEventListener('click', () => {
     CheckWeather(searchBox.value)
 })
+
+
+
+var icon = document.getElementById('icon')
+
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme")
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = './img/lighttheme.png'
+    }else{
+        icon.src = './img/darktheme.png'
+    }
+}
